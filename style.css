@@ -112,6 +112,10 @@ main {
   background: linear-gradient(180deg, #EA916B 0%, #E05A4D 100%);
 }
 
+.tabs-content {
+  width: 100%;
+}
+
 .content {
   width: 100%;
   margin: 0 auto;
@@ -123,6 +127,10 @@ main {
 
 .content--sm {
   max-width: 680px;
+}
+
+form {
+  width: 100%;
 }
 
 form .btn {
