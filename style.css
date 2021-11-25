@@ -43,7 +43,7 @@ main {
   display:flex;
   flex-direction: column;
   align-items:center;
-  padding-block: 100px;
+  padding: 10rem 2.4rem;
 }
 
 .logo {
@@ -151,6 +151,8 @@ input {
 }
 
 textarea {
+  min-width: 100%;
+  max-width: 100%;
   padding: 15px 20px;
 }
 
@@ -169,4 +171,15 @@ input, textarea {
   display: flex;
   gap: 1.7rem;
   margin-bottom: 1.6rem;
+}
+
+@media (max-width: 767px){
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .form-row{
+    flex-direction: column;
+    gap: 1.6rem;
+  }
 }
